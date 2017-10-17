@@ -1566,8 +1566,8 @@ sgraph = graph.adjacency(w_sign, mode="lower", weighted=TRUE)  # signed graph
 # Leading eigenvector.
 clust = cluster_leading_eigen(graph)
 
-# write.graph(sgraph, file="exploratory/figLayerDeconv/networks/prot_adj2.gml", format="gml")
-write.graph(sgraph, file="exploratory/figLayerDeconv/networks/prot_adj_FDR05.gml", format="gml")
+# write.graph(sgraph, file="data/layerDeconv/networks/prot_adj2.gml", format="gml")
+write.graph(sgraph, file="data/layerDeconv/networks/prot_adj_FDR05.gml", format="gml")
 
 
 
@@ -1591,8 +1591,8 @@ for (i in 2:length(clust_include)) {
 # Annotate combined graph with EM mixtures (labmda values)
 V(com_graph)$lambda = em$lambda[match(names(V(com_graph)), colnames(x))]
 
-# write.graph(com_graph, file="exploratory/figLayerDeconv/networks/prot_adj_community2.gml", format="gml")
-write.graph(com_graph, file="exploratory/figLayerDeconv/networks/prot_adj_community_FDR05.gml", format="gml")
+# write.graph(com_graph, file="data/layerDeconv/networks/prot_adj_community2.gml", format="gml")
+write.graph(com_graph, file="data/layerDeconv/networks/prot_adj_community_FDR05.gml", format="gml")
 
 
 # sub_graphs = list()
