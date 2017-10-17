@@ -363,7 +363,7 @@ coupling_counts_mat = Reduce(rbind, coupling_counts)
 rownames(coupling_counts_mat) = names(coupling_counts)
 colnames(coupling_counts_mat) = c("--", "++", "-+", "+-")
 
-write.csv(coupling_counts_mat, "exploratory/figCouplingCCLE/coupling_counts.csv", quote=FALSE)
+write.csv(coupling_counts_mat, "data/couplingCCLE/coupling_counts.csv", quote=FALSE)
 
 
 # E-Cadherin translationally regulated cell lines.
