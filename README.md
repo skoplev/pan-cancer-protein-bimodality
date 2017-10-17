@@ -1,3 +1,3 @@
 # pan-cancer-protein-bimodality
 
-![alt text](presentations/intro_minimal.pdf)
+![alt text](presentations/intro_minimal.png)
