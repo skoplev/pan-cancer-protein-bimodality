@@ -3,8 +3,8 @@ library(data.table)
 
 setwd("~/Google Drive/projects/tcpa-rppa")
 
-go_bimodal = fread("exploratory/bimodal/enrichment/GO_BP_bimodal_common.txt")
-go_unimodal = fread("exploratory/bimodal/enrichment/GO_BP_nonbimodal.txt")
+go_bimodal = fread("data/bimodal/enrichment/GO_BP_bimodal_common.txt")
+go_unimodal = fread("data/bimodal/enrichment/GO_BP_nonbimodal.txt")
 
 
 go_unimodal_sig = go_unimodal[go_unimodal[["upload_1 (P-value)"]] < 0.05, ]
