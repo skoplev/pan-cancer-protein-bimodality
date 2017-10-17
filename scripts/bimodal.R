@@ -918,7 +918,7 @@ bimodal_prot_tab$gene_symbol = as.character(prot_annot$uniprot_name)
 
 
 write.table(bimodal_prot_tab,
-	file="exploratory/bimodal/bimodal_prot2.csv",
+	file="data/bimodal/bimodal_prot2.csv",
 	sep=",",
 	quote=FALSE,
 	row.names=FALSE
