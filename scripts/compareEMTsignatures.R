@@ -23,9 +23,9 @@ lit_emt$huang_2013 = list()
 lit_emt$huang_2013$epi = as.character(read.table("exploratory/EMT_signatures/huang_2013/emt_epi.txt")[, 1])
 lit_emt$huang_2013$mes = as.character(read.table("exploratory/EMT_signatures/huang_2013/emt_mes.txt")[, 1])
 
-lit_emt$mak_2013 = list()
-lit_emt$mak_2013$epi = as.character(read.table("exploratory/EMT_signatures/mak_2013/emt_epi.txt")[, 1])
-lit_emt$mak_2013$mes = as.character(read.table("exploratory/EMT_signatures/mak_2013/emt_mes.txt")[, 1])
+lit_emt$mak_2015 = list()
+lit_emt$mak_2015$epi = as.character(read.table("exploratory/EMT_signatures/mak_2015/emt_epi.txt")[, 1])
+lit_emt$mak_2015$mes = as.character(read.table("exploratory/EMT_signatures/mak_2015/emt_mes.txt")[, 1])
 
 lit_emt$tan_2014 = list()
 lit_emt$tan_2014$epi = as.character(read.table("exploratory/EMT_signatures/tan_2014/cell_line_epi.txt")[, 1])
