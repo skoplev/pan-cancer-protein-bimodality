@@ -182,7 +182,7 @@ netw_tab = netw_tab[order(netw_tab$causal_weight, decreasing=TRUE), ]
 
 
 
-write.csv(netw_tab, "figures/tables/causal_netw_cell_line.csv", row.names=FALSE)
+write.csv(netw_tab, "data/tables/causal_netw_cell_line.csv", row.names=FALSE)
 
 
 netw_tab[netw_tab$from == "CLAUDIN7" & netw_tab$to == "RAB25", ]
