@@ -4,7 +4,7 @@
 
 rm(list=ls())
 
-library(bdmerge)  # for loading TCPA data
+library(bdmerge)  # for loading TCPA data (https://github.com/skoplev/bdmergeR)
 
 dyn.load('/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/server/libjvm.dylib')
 library(rcausal)
